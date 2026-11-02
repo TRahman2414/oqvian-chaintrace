@@ -48,18 +48,6 @@ Implement overview, event stream, chain timeline, incident details, rules, and d
 
 Document local setup and guided demo, record test results and limits, inspect dependency/license/security posture, and publish an initial reviewable GitHub change if repository access permits.
 
-## Roles and agent readiness
-
-- Codex: implementation lead, integration, testing, security/safety boundary, and final review.
-- OpenCode: bounded no-edit review of deterministic-rule edge cases; response pending verification.
-- Antigravity: optional visual design review in the new project session; no project-specific session is currently confirmed.
-- Kilo Code: optional isolated test/reliability review via CLI; do not claim a specific free model unless runtime metadata confirms it.
-- Terra / Luna / Gemini assignments are only considered active when their real sessions and model identities can be confirmed. No role is treated as ready based only on a configured label.
-
-## Current readiness
-
-First vertical slice is built and locally verified. The private GitHub repository is https://github.com/TRahman2414/oqvian-chaintrace. Agent Bridge has a connected OpenCode session in the parent Cybersecurity workspace, but its scoped no-edit review did not answer before timeout. No OQVIAN CHAINTRACE-specific Antigravity, Kilo, Terra, or Luna session is verified; do not describe those roles as ready until an actual model/session reply is received.
-
 ## Not in this demo
 
 Production authentication, real SIEM connectors, collection agents, cloud integrations, malware execution, packet capture, auto-blocking, account suspension, external notifications, model fine-tuning, high availability, or validated production risk scoring.
